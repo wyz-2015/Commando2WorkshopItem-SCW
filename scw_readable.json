@@ -1,5 +1,5 @@
 {
-	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r目前只设计了完整的Level 1的关卡、Level 2~4零星的几个场景或桥段，放出Demo以试水。\rOnly whole Level 1 and a few scenes in Level 2~4 are playable.  This mod is a demo.\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉、钻头(Level 9解锁)\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon, Driller(unlocked in Level 9).",
+	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r目前只设计了完整的Level 1的关卡、Level 2~4零星的几个场景或桥段，放出Demo以试水。\rOnly whole Level 1 and a few scenes in Level 2~4 are playable.  This mod is a demo.\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉、钻头(Level 9解锁)\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon, Driller(unlocked in Level 9).\r\rDebug枪将在未设计完全的Level解锁。\rA Debug Gun will be unlocked if you complete all levels which were fully designed.",
 	"EnemyData": {
 		"enemy01": {
 			"attack": 100,
@@ -7192,7 +7192,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-01-21  01:59:04",
+	"ModifyTime": "2025-01-26  17:43:56",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
@@ -7546,13 +7546,13 @@
 		"weapon46": {
 			"bult": 1,
 			"dmg1": [
-				3.5,
-				3.5
+				100000,
+				100000
 			],
 			"freq": 100,
-			"lock": 13,
-			"magz": 300,
-			"name": "Glenos-G160",
+			"lock": 2,
+			"magz": 99999,
+			"name": "Debug Gun",
 			"sped": 35
 		},
 		"weapon47": {
