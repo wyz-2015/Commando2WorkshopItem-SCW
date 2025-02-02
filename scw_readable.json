@@ -308,6 +308,41 @@
 			"health": 1200,
 			"size": 100,
 			"speed": 8
+		},
+		"enemy50": {
+			"attack": 100,
+			"desire": 100,
+			"health": 300,
+			"size": 100,
+			"speed": 9
+		},
+		"enemy51": {
+			"attack": 100,
+			"desire": 100,
+			"health": 400,
+			"size": 100,
+			"speed": 6
+		},
+		"enemy52": {
+			"attack": 100,
+			"desire": 100,
+			"health": 300,
+			"size": 100,
+			"speed": 9
+		},
+		"enemy53": {
+			"attack": 100,
+			"desire": 100,
+			"health": 500,
+			"size": 100,
+			"speed": 4
+		},
+		"enemy54": {
+			"attack": 100,
+			"desire": 100,
+			"health": 600,
+			"size": 100,
+			"speed": 4
 		}
 	},
 	"LevelData": {
@@ -3192,7 +3227,11 @@
 				"xscale": 100
 			}
 		},
-		"s2_1": {},
+		"s2_1": {
+			"enemy41>528>157": {
+				"xscale": 100
+			}
+		},
 		"s2_10": {},
 		"s2_11": {},
 		"s2_12": {},
@@ -3316,7 +3355,7 @@
 				],
 				"xscale": 100
 			},
-			"enemy38>526>83": {
+			"enemy38_2>526>83": {
 				"vars": [
 					{
 						"key": "movNsta",
@@ -3326,6 +3365,9 @@
 				"xscale": 100
 			},
 			"enemy39>285>311": {
+				"xscale": 100
+			},
+			"other18>174>321": {
 				"xscale": 100
 			}
 		},
@@ -3533,6 +3575,9 @@
 					}
 				],
 				"xscale": 100
+			},
+			"other18>88>280": {
+				"xscale": 100
 			}
 		},
 		"s2_17": {
@@ -3654,6 +3699,12 @@
 			},
 			"object11_5>335>221": {
 				"xscale": 100
+			},
+			"other18>103>286": {
+				"xscale": 100
+			},
+			"other18>173>148": {
+				"xscale": 100
 			}
 		},
 		"s2_18": {
@@ -3741,7 +3792,7 @@
 				],
 				"xscale": 100
 			},
-			"enemy38>135>68": {
+			"enemy38_2>135>68": {
 				"vars": [
 					{
 						"key": "movNsta",
@@ -3908,6 +3959,9 @@
 			},
 			"object11_5>385>225": {
 				"xscale": 100
+			},
+			"other18>84>284": {
+				"xscale": 100
 			}
 		},
 		"s2_19": {
@@ -4056,7 +4110,20 @@
 				"xscale": 100
 			}
 		},
-		"s2_2": {},
+		"s2_2": {
+			"enemy09>461>137": {
+				"ammo": 1,
+				"boss": 1,
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 100
+			},
+			"lock>73>82": {
+				"wave": 1,
+				"xscale": 100
+			}
+		},
 		"s2_20": {
 			"other100>475>208": {
 				"food": 1,
@@ -4070,7 +4137,14 @@
 		"s2_25": {},
 		"s2_26": {},
 		"s2_27": {},
-		"s2_3": {},
+		"s2_3": {
+			"enemy41>140>112": {
+				"xscale": 100
+			},
+			"enemy41>209>111": {
+				"xscale": 100
+			}
+		},
 		"s2_31": {},
 		"s2_32": {},
 		"s2_33": {},
@@ -4386,7 +4460,121 @@
 				"xscale": -100
 			}
 		},
-		"s2_4": {},
+		"s2_4": {
+			"enemy03_2>144>357": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xscale": -100
+			},
+			"enemy03_2>152>190": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xscale": -100
+			},
+			"enemy09>499>355": {
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 100
+			},
+			"object01>255>306": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>255>354": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>259>195": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>261>146": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>347>146": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>425>147": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>501>147": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>577>149": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object11_2>186>217": {
+				"xscale": 100
+			}
+		},
 		"s2_40": {
 			"enemy11>156>322": {
 				"xscale": 100
@@ -4420,13 +4608,222 @@
 		"s2_47": {},
 		"s2_48": {},
 		"s2_49": {},
-		"s2_5": {},
+		"s2_5": {
+			"other100>238>150": {
+				"xscale": 100
+			},
+			"other100>281>150": {
+				"food": 1,
+				"xscale": 100
+			},
+			"other100>322>148": {
+				"xscale": 100
+			}
+		},
 		"s2_54": {},
 		"s2_55": {},
 		"s2_56": {},
-		"s2_6": {},
-		"s2_7": {},
-		"s2_8": {},
+		"s2_6": {
+			"enemy09>499>355": {
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 100
+			},
+			"lock>66>66": {
+				"wave": 1,
+				"xscale": 100
+			},
+			"object01>254>249": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>255>306": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>255>354": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>259>195": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>261>146": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>425>147": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>501>147": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>577>149": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object10_3>21>361": {
+				"xscale": 100
+			},
+			"object11_5>156>254": {
+				"xscale": 100
+			},
+			"other100>528>87": {
+				"food": 1,
+				"xscale": 100
+			}
+		},
+		"s2_7": {
+			"enemy09>499>355": {
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 100
+			},
+			"enemy53>496>55": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 100
+			},
+			"object01>255>306": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>255>354": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>257>251": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>259>195": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>261>146": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>425>147": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>501>147": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object01>577>149": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			}
+		},
+		"s2_8": {
+			"other05>361>277": {
+				"xscale": -100
+			},
+			"other100>103>253": {
+				"food": 1,
+				"xscale": 100
+			},
+			"other18>178>277": {
+				"xscale": 100
+			}
+		},
 		"s2_9": {},
 		"s3_1": {
 			"object10_3>151>464": {
@@ -4541,6 +4938,58 @@
 		},
 		"s3_39": {},
 		"s3_4": {
+			"enemy05>241>329": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy05>370>327": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy05>514>332": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy05_2>109>326": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
 			"object10_1>185>255": {
 				"xscale": 100
 			},
@@ -5034,6 +5483,71 @@
 		"s3_48": {},
 		"s3_49": {},
 		"s3_5": {
+			"enemy01>183>322": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 2
+					}
+				],
+				"xscale": 100
+			},
+			"enemy01>265>320": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 2
+					}
+				],
+				"xscale": 100
+			},
+			"enemy01>370>320": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 2
+					}
+				],
+				"xscale": 100
+			},
+			"enemy01>470>326": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 2
+					}
+				],
+				"xscale": 100
+			},
+			"enemy01>79>323": {
+				"vars": [
+					{
+						"key": "atks",
+						"value": 0
+					},
+					{
+						"key": "movNsta",
+						"value": 4
+					}
+				],
+				"xscale": -100
+			},
 			"enemy05>154>143": {
 				"vars": [
 					{
@@ -5167,7 +5681,7 @@
 				},
 				"xscale": 100
 			},
-			"object10_2>282>323": {
+			"object10_2>275>322": {
 				"xscale": 100
 			}
 		},
@@ -7581,7 +8095,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-01-28  17:44:52",
+	"ModifyTime": "2025-02-02  16:54:16",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
