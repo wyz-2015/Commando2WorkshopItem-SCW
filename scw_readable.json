@@ -1353,6 +1353,9 @@
 			},
 			"object14>504>491": {
 				"xscale": 100
+			},
+			"other18>90>551": {
+				"xscale": 100
 			}
 		},
 		"s1_22": {
@@ -1466,6 +1469,9 @@
 						"value": 1
 					}
 				],
+				"xscale": 100
+			},
+			"other18>212>291": {
 				"xscale": 100
 			}
 		},
@@ -8095,7 +8101,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-02  16:54:16",
+	"ModifyTime": "2025-02-04  11:32:09",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
@@ -8107,12 +8113,12 @@
 	"PlayerData": {
 		"player1_health": 100,
 		"player1_jump": 15,
-		"player1_life": 9,
+		"player1_life": 20,
 		"player1_size": 100,
 		"player1_speed": 6,
 		"player2_health": 100,
 		"player2_jump": 30,
-		"player2_life": 9,
+		"player2_life": 20,
 		"player2_size": 100,
 		"player2_speed": 5.75
 	},
