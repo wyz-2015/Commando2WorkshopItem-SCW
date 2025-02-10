@@ -4824,13 +4824,59 @@
 		},
 		"s2_22": {},
 		"s2_23": {
-			"enemy18>411>315": {
+			"enemy12_2>403>209": {
+				"boss": 1,
 				"vars": [
 					{
 						"key": "movNsta",
 						"value": 0
 					}
 				],
+				"wave": 1,
+				"xscale": 0
+			},
+			"enemy18>411>315": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 0
+			},
+			"enemy23>313>316": {
+				"boss": 1,
+				"wave": 1,
+				"xMin": {
+					"value": 3
+				},
+				"xscale": 0
+			},
+			"enemy30>492>315": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"wave": 1,
+				"xMin": {
+					"value": 6
+				},
+				"xscale": 0
+			},
+			"enemy31>258>115": {
+				"boss": 1,
+				"food": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"wave": 1,
 				"xscale": 0
 			},
 			"lock>83>114": {
@@ -4839,23 +4885,8 @@
 			}
 		},
 		"s2_24": {
-			"enemy12_2>419>316": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": 0
-			},
-			"lock>109>123": {
-				"wave": 1,
-				"xscale": 100
-			}
-		},
-		"s2_25": {
 			"enemy22_2>443>313": {
-				"xscale": 100
+				"xscale": 0
 			},
 			"enemy27>386>316": {
 				"vars": [
@@ -4876,14 +4907,51 @@
 				],
 				"xscale": 0
 			},
+			"enemy44>436>184": {
+				"boss": 1,
+				"wave": 1,
+				"xMin": {
+					"value": 6
+				},
+				"xscale": 0
+			},
+			"enemy51>261>319": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"wave": 1,
+				"xMin": {
+					"value": 3
+				},
+				"xscale": 0
+			},
 			"lock>105>123": {
+				"wave": 1,
+				"xscale": 100
+			}
+		},
+		"s2_25": {
+			"enemy32>534>317": {
+				"food": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 0
+			},
+			"lock>100>146": {
 				"wave": 1,
 				"xscale": 100
 			}
 		},
 		"s2_26": {
 			"enemy39>425>326": {
-				"xscale": 100
+				"xscale": 200
 			}
 		},
 		"s2_27": {},
@@ -8932,7 +9000,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-10  20:02:19",
+	"ModifyTime": "2025-02-11  00:22:40",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
@@ -9197,7 +9265,7 @@
 			"lock": 2,
 			"magz": 99999,
 			"name": "人鬼情未了",
-			"sped": 25
+			"sped": 17
 		},
 		"weapon37": {
 			"bult": 1,
