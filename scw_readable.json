@@ -326,7 +326,7 @@
 		"enemy52": {
 			"attack": 100,
 			"desire": 100,
-			"health": 300,
+			"health": -300,
 			"size": 100,
 			"speed": 9
 		},
@@ -4670,12 +4670,222 @@
 				"xscale": 100
 			}
 		},
-		"s2_21": {},
+		"s2_21": {
+			"enemy52>143.000000000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.00000000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.0000000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.000000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.00000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.0000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.000>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.00>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143.0>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			},
+			"enemy52>143>168": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xMax": {
+					"value": 1
+				},
+				"xMin": {
+					"value": 1
+				},
+				"xscale": 0
+			}
+		},
 		"s2_22": {},
-		"s2_23": {},
-		"s2_24": {},
-		"s2_25": {},
-		"s2_26": {},
+		"s2_23": {
+			"enemy18>411>315": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 0
+			},
+			"lock>83>114": {
+				"wave": 1,
+				"xscale": 100
+			}
+		},
+		"s2_24": {
+			"enemy12_2>419>316": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 0
+			},
+			"lock>109>123": {
+				"wave": 1,
+				"xscale": 100
+			}
+		},
+		"s2_25": {
+			"enemy22_2>443>313": {
+				"xscale": 100
+			},
+			"enemy27>386>316": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 0
+			},
+			"enemy27>448>206": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 0
+			},
+			"lock>105>123": {
+				"wave": 1,
+				"xscale": 100
+			}
+		},
+		"s2_26": {
+			"enemy39>425>326": {
+				"xscale": 100
+			}
+		},
 		"s2_27": {},
 		"s2_3": {
 			"enemy41>140>112": {
@@ -8722,7 +8932,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-06  22:21:16",
+	"ModifyTime": "2025-02-10  20:02:19",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
@@ -8980,14 +9190,14 @@
 		"weapon36": {
 			"bult": 1,
 			"dmg1": [
-				10,
-				50
+				0,
+				0
 			],
-			"freq": 100,
-			"lock": 13,
-			"magz": 35,
-			"name": "Poncho-25",
-			"sped": 2
+			"freq": 1000,
+			"lock": 2,
+			"magz": 99999,
+			"name": "人鬼情未了",
+			"sped": 25
 		},
 		"weapon37": {
 			"bult": 1,
