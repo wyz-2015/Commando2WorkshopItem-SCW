@@ -1,5 +1,5 @@
 {
-	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r男角色~马力欧；女角色~路易吉\rMale Character ~ Mario; Female Character ~ Luigi\r\r目前只设计了完整的Level 1的关卡、Level 2~4零星的几个场景或桥段，放出Demo以试水。\rOnly whole Level 1 and a few scenes in Level 2~4 are playable.  This mod is a demo.\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉、钻头(Level 9解锁)\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon, Driller(unlocked in Level 9).\r\rDebug枪将在未设计完全的Level解锁。\rA Debug Gun will be unlocked if you complete all levels which were fully designed.",
+	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r男角色~马力欧；女角色~路易吉\rMale Character ~ Mario; Female Character ~ Luigi\r\r目前只设计了完整的Level 1~2的关卡、Level 3~4零星的几个场景或桥段，放出Demo以试水。\rOnly whole Level 1~2 and a few scenes in Level 3~4 are playable.  This mod is a demo.\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉、钻头(Level 9解锁)；及一些偶尔出现的其他武器。\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon, Driller(unlocked in Level 9); and a few other weapons.\r\rDebug枪将在未设计完全的Level解锁。\rA Debug Gun will be unlocked if you complete all levels which were fully designed.",
 	"EnemyData": {
 		"enemy01": {
 			"attack": 100,
@@ -6640,7 +6640,56 @@
 				"xscale": 100
 			}
 		},
-		"s3_10": {},
+		"s3_10": {
+			"enemy03>275>141": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"enemy03>376>140": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 1
+					}
+				],
+				"xscale": -100
+			},
+			"enemy03_4>432>331": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 1
+					}
+				],
+				"xscale": -100
+			},
+			"enemy36>514>314": {
+				"xscale": 100
+			},
+			"object11_3>402>298": {
+				"xscale": 100
+			},
+			"object11_6>342>179": {
+				"xscale": 100
+			}
+		},
 		"s3_100": {},
 		"s3_101": {},
 		"s3_102": {},
@@ -6651,7 +6700,32 @@
 		"s3_107": {},
 		"s3_108": {},
 		"s3_109": {},
-		"s3_11": {},
+		"s3_11": {
+			"enemy15>437>242": {
+				"ammo": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy15>555>243": {
+				"ammo": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"other100>649>244": {
+				"food": 1,
+				"xscale": 100
+			}
+		},
 		"s3_110": {},
 		"s3_111": {},
 		"s3_112": {},
@@ -6659,16 +6733,590 @@
 		"s3_114": {},
 		"s3_115": {},
 		"s3_116": {},
-		"s3_12": {},
-		"s3_17": {},
-		"s3_18": {},
-		"s3_19": {},
+		"s3_12": {
+			"enemy03>124>167": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"enemy36>418>301": {
+				"xscale": 100
+			},
+			"enemy49>416>79": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			}
+		},
+		"s3_17": {
+			"enemy06>115>477": {
+				"xscale": 100
+			},
+			"enemy06>133>476": {
+				"xscale": 100
+			},
+			"enemy06>151>477": {
+				"xscale": 100
+			},
+			"enemy06>170>476": {
+				"xscale": 100
+			},
+			"enemy06>190>477": {
+				"xscale": 100
+			},
+			"enemy06>210>476": {
+				"xscale": 100
+			},
+			"enemy06>229>477": {
+				"xscale": 100
+			},
+			"enemy06>247>476": {
+				"xscale": 100
+			},
+			"enemy06>265>476": {
+				"xscale": 100
+			},
+			"enemy06>284>476": {
+				"xscale": 100
+			},
+			"enemy06>29>476": {
+				"xscale": 100
+			},
+			"enemy06>305>475": {
+				"xscale": 100
+			},
+			"enemy06>325>475": {
+				"xscale": 100
+			},
+			"enemy06>344>476": {
+				"xscale": 100
+			},
+			"enemy06>363>475": {
+				"xscale": 100
+			},
+			"enemy06>383>476": {
+				"xscale": 100
+			},
+			"enemy06>402>475": {
+				"xscale": 100
+			},
+			"enemy06>421>476": {
+				"xscale": 100
+			},
+			"enemy06>440>476": {
+				"xscale": 100
+			},
+			"enemy06>459>475": {
+				"xscale": 100
+			},
+			"enemy06>45>476": {
+				"xscale": 100
+			},
+			"enemy06>475>476": {
+				"xscale": 100
+			},
+			"enemy06>493>475": {
+				"xscale": 100
+			},
+			"enemy06>513>475": {
+				"xscale": 100
+			},
+			"enemy06>531>475": {
+				"xscale": 100
+			},
+			"enemy06>551>475": {
+				"xscale": 100
+			},
+			"enemy06>570>475": {
+				"xscale": 100
+			},
+			"enemy06>590>475": {
+				"xscale": 100
+			},
+			"enemy06>64>476": {
+				"xscale": 100
+			},
+			"enemy06>81>476": {
+				"xscale": 100
+			},
+			"enemy06>98>477": {
+				"xscale": 100
+			},
+			"object05>26>333": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object05>26>367": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object05>26>402": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object05>26>437": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object05>26>473": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object05>27>298": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object05>58>284": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"object05>91>283": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			}
+		},
+		"s3_18": {
+			"enemy06>-11>477": {
+				"xscale": 100
+			},
+			"enemy06>-27>478": {
+				"xscale": 100
+			},
+			"enemy06>107>477": {
+				"xscale": 100
+			},
+			"enemy06>125>479": {
+				"xscale": 100
+			},
+			"enemy06>138>476": {
+				"xscale": 100
+			},
+			"enemy06>148>478": {
+				"xscale": 100
+			},
+			"enemy06>165>477": {
+				"xscale": 100
+			},
+			"enemy06>183>478": {
+				"xscale": 100
+			},
+			"enemy06>201>478": {
+				"xscale": 100
+			},
+			"enemy06>219>478": {
+				"xscale": 100
+			},
+			"enemy06>21>476": {
+				"xscale": 100
+			},
+			"enemy06>237>477": {
+				"xscale": 100
+			},
+			"enemy06>254>478": {
+				"xscale": 100
+			},
+			"enemy06>270>477": {
+				"xscale": 100
+			},
+			"enemy06>288>476": {
+				"xscale": 100
+			},
+			"enemy06>307>476": {
+				"xscale": 100
+			},
+			"enemy06>328>475": {
+				"xscale": 100
+			},
+			"enemy06>347>474": {
+				"xscale": 100
+			},
+			"enemy06>365>475": {
+				"xscale": 100
+			},
+			"enemy06>36>478": {
+				"xscale": 100
+			},
+			"enemy06>383>474": {
+				"xscale": 100
+			},
+			"enemy06>400>474": {
+				"xscale": 100
+			},
+			"enemy06>419>475": {
+				"xscale": 100
+			},
+			"enemy06>438>474": {
+				"xscale": 100
+			},
+			"enemy06>456>474": {
+				"xscale": 100
+			},
+			"enemy06>475>475": {
+				"xscale": 100
+			},
+			"enemy06>495>473": {
+				"xscale": 100
+			},
+			"enemy06>514>473": {
+				"xscale": 100
+			},
+			"enemy06>534>474": {
+				"xscale": 100
+			},
+			"enemy06>53>479": {
+				"xscale": 100
+			},
+			"enemy06>553>475": {
+				"xscale": 100
+			},
+			"enemy06>572>475": {
+				"xscale": 100
+			},
+			"enemy06>590>475": {
+				"xscale": 100
+			},
+			"enemy06>5>477": {
+				"xscale": 100
+			},
+			"enemy06>70>478": {
+				"xscale": 100
+			},
+			"enemy06>88>478": {
+				"xscale": 100
+			},
+			"enemy36>503>313": {
+				"xscale": 100
+			},
+			"enemy37_1>460>164": {
+				"xscale": 100
+			},
+			"enemy37_2>463>256": {
+				"xscale": 100
+			}
+		},
+		"s3_19": {
+			"enemy06>-11>479": {
+				"xscale": 100
+			},
+			"enemy06>-29>478": {
+				"xscale": 100
+			},
+			"enemy06>116>478": {
+				"xscale": 100
+			},
+			"enemy06>135>479": {
+				"xscale": 100
+			},
+			"enemy06>153>478": {
+				"xscale": 100
+			},
+			"enemy06>173>479": {
+				"xscale": 100
+			},
+			"enemy06>192>479": {
+				"xscale": 100
+			},
+			"enemy06>210>479": {
+				"xscale": 100
+			},
+			"enemy06>228>479": {
+				"xscale": 100
+			},
+			"enemy06>245>479": {
+				"xscale": 100
+			},
+			"enemy06>25>479": {
+				"xscale": 100
+			},
+			"enemy06>262>478": {
+				"xscale": 100
+			},
+			"enemy06>281>479": {
+				"xscale": 100
+			},
+			"enemy06>298>480": {
+				"xscale": 100
+			},
+			"enemy06>315>478": {
+				"xscale": 100
+			},
+			"enemy06>335>478": {
+				"xscale": 100
+			},
+			"enemy06>352>478": {
+				"xscale": 100
+			},
+			"enemy06>370>477": {
+				"xscale": 100
+			},
+			"enemy06>389>477": {
+				"xscale": 100
+			},
+			"enemy06>408>477": {
+				"xscale": 100
+			},
+			"enemy06>41>480": {
+				"xscale": 100
+			},
+			"enemy06>425>477": {
+				"xscale": 100
+			},
+			"enemy06>442>475": {
+				"xscale": 100
+			},
+			"enemy06>460>475": {
+				"xscale": 100
+			},
+			"enemy06>477>475": {
+				"xscale": 100
+			},
+			"enemy06>496>476": {
+				"xscale": 100
+			},
+			"enemy06>514>475": {
+				"xscale": 100
+			},
+			"enemy06>533>475": {
+				"xscale": 100
+			},
+			"enemy06>552>475": {
+				"xscale": 100
+			},
+			"enemy06>571>475": {
+				"xscale": 100
+			},
+			"enemy06>590>475": {
+				"xscale": 100
+			},
+			"enemy06>60>479": {
+				"xscale": 100
+			},
+			"enemy06>79>479": {
+				"xscale": 100
+			},
+			"enemy06>7>478": {
+				"xscale": 100
+			},
+			"enemy06>97>479": {
+				"xscale": 100
+			},
+			"enemy27>495>175": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy27>535>175": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy27>569>174": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"lock>66>98": {
+				"wave": 1,
+				"xscale": 100
+			},
+			"object03>533>312": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 5
+					}
+				],
+				"xscale": 100
+			}
+		},
 		"s3_2": {
 			"object17>205>331": {
 				"xscale": 100
 			}
 		},
-		"s3_20": {},
+		"s3_20": {
+			"enemy06>-19>476": {
+				"xscale": 100
+			},
+			"enemy06>-37>476": {
+				"xscale": 100
+			},
+			"enemy06>102>475": {
+				"xscale": 100
+			},
+			"enemy06>120>474": {
+				"xscale": 100
+			},
+			"enemy06>138>474": {
+				"xscale": 100
+			},
+			"enemy06>157>474": {
+				"xscale": 100
+			},
+			"enemy06>173>473": {
+				"xscale": 100
+			},
+			"enemy06>190>472": {
+				"xscale": 100
+			},
+			"enemy06>211>473": {
+				"xscale": 100
+			},
+			"enemy06>231>474": {
+				"xscale": 100
+			},
+			"enemy06>251>475": {
+				"xscale": 100
+			},
+			"enemy06>25>476": {
+				"xscale": 100
+			},
+			"enemy06>268>475": {
+				"xscale": 100
+			},
+			"enemy06>287>475": {
+				"xscale": 100
+			},
+			"enemy06>306>475": {
+				"xscale": 100
+			},
+			"enemy06>325>476": {
+				"xscale": 100
+			},
+			"enemy06>343>475": {
+				"xscale": 100
+			},
+			"enemy06>363>475": {
+				"xscale": 100
+			},
+			"enemy06>382>475": {
+				"xscale": 100
+			},
+			"enemy06>3>475": {
+				"xscale": 100
+			},
+			"enemy06>400>474": {
+				"xscale": 100
+			},
+			"enemy06>419>475": {
+				"xscale": 100
+			},
+			"enemy06>44>475": {
+				"xscale": 100
+			},
+			"enemy06>64>475": {
+				"xscale": 100
+			},
+			"enemy06>83>475": {
+				"xscale": 100
+			},
+			"enemy13>473>490": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy49>496.00>456": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy49>496.0>456": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"enemy49>496>456": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 100
+			},
+			"lock>152>140": {
+				"wave": 1,
+				"xscale": 100
+			}
+		},
 		"s3_21": {},
 		"s3_22": {},
 		"s3_27": {},
@@ -9896,7 +10544,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-11  23:51:15",
+	"ModifyTime": "2025-02-13  22:22:32",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
@@ -9917,7 +10565,7 @@
 		"player2_size": 100,
 		"player2_speed": 5.75
 	},
-	"Title": "[拷打向] 超级马力欧前线(Demo) / [Very Hard] Super ComMario World (Demo)",
+	"Title": "[拷打向] 超级马力欧前线(不定更新中) / [Very Hard] Super ComMario World (Updating)",
 	"WeaponData": {
 		"weapon1": {
 			"bult": 0,
