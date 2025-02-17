@@ -1,5 +1,5 @@
 {
-	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r男角色~马力欧；女角色~路易吉\rMale Character ~ Mario; Female Character ~ Luigi\r\r目前只设计了完整的Level 1~2的关卡、Level 3~4零星的几个场景或桥段，放出Demo以试水。\rOnly whole Level 1~2 and a few scenes in Level 3~4 are playable.  This mod is a demo.\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉、钻头(Level 9解锁)；及一些偶尔出现的其他武器。\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon, Driller(unlocked in Level 9); and a few other weapons.\r\rDebug枪将在未设计完全的Level解锁。\rA Debug Gun will be unlocked if you complete all levels which were fully designed.",
+	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r男角色~马力欧；女角色~路易吉\rMale Character ~ Mario; Female Character ~ Luigi\r\r目前只设计了完整的Level 1~3的关卡、Level 4、7零星的几个场景或桥段，放出Demo以试水。\rOnly whole Level 1~3 and a few scenes in Level 4, 7 are playable.  This mod is a demo.\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉、钻头(Level 9解锁)；及一些偶尔出现的其他武器。\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon, Driller(unlocked in Level 9); and a few other weapons.\r\rDebug枪将在未设计完全的Level解锁。\rA Debug Gun will be unlocked if you complete all levels which were fully designed.",
 	"EnemyData": {
 		"enemy01": {
 			"attack": 100,
@@ -9713,6 +9713,7 @@
 		"s3_70": {
 			"object04>550>60": {
 				"food": 1,
+				"boss": 1,
 				"vars": [
 					{
 						"key": "inAir",
@@ -9869,6 +9870,110 @@
 			}
 		},
 		"s3_96": {
+			"enemy41>20>-33": {
+				"xscale": 100
+			},
+			"enemy41>20>15": {
+				"xscale": 100
+			},
+			"enemy41>24>108": {
+				"xscale": 100
+			},
+			"enemy41>24>85": {
+				"xscale": 100
+			},
+			"enemy41>59>39": {
+				"xscale": 100
+			},
+			"enemy41>59>62": {
+				"xscale": 100
+			},
+			"enemy41>61>-8": {
+				"xscale": 100
+			},
+			"enemy41>62>-59": {
+				"xscale": 100
+			},
+			"object08_1>20>-55": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>21>-8": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>23>40": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>25>65": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>58>86": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>59>109": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>60>-30": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_1>60>19": {
+				"boss": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
 			"object10_3>318>208": {
 				"xscale": 100
 			}
@@ -11914,7 +12019,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-17  20:08:12",
+	"ModifyTime": "2025-02-17  21:25:08",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
