@@ -12081,10 +12081,10 @@
 		"weapon15": {
 			"bult": 1,
 			"dmg1": [
-				100,
-				100
+				101,
+				101
 			],
-			"freq": 25,
+			"freq": 50,
 			"lock": 1,
 			"magz": 99999,
 			"name": "Commando-P1",
@@ -12508,7 +12508,7 @@
 				101,
 				101
 			],
-			"freq": 25,
+			"freq": 50,
 			"lock": 1,
 			"magz": 99999,
 			"name": "Barreti MC21 - S",
