@@ -303,7 +303,7 @@
 			"speed": 0
 		},
 		"enemy49": {
-			"attack": 50,
+			"attack": 100,
 			"desire": 0,
 			"health": 1200,
 			"size": 100,
@@ -11502,6 +11502,21 @@
 			"object11_5>301>790": {
 				"xscale": 100
 			},
+			"object11_5>500>50": {
+				"xscale": 100
+			},
+			"object11_5>500>100": {
+				"xscale": 100
+			},
+			"object11_5>500>150": {
+				"xscale": 100
+			},
+			"object11_5>500>200": {
+				"xscale": 100
+			},
+			"object11_5>500>250": {
+				"xscale": 100
+			},
 			"object19>301>780": {
 				"dsize": 3.8,
 				"xscale": 100
@@ -12841,7 +12856,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-22  14:03:57",
+	"ModifyTime": "2025-02-22  14:20:04",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
