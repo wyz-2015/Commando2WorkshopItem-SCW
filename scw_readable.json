@@ -11202,7 +11202,7 @@
 		"s4_54": {},
 		"s4_58": {
 			"enemy02>300>1000": {
-				"dsize": 3.5,
+				"dsize": 0.75,
 				"vars": [
 					{
 						"key": "movNsta",
@@ -11376,7 +11376,7 @@
 			}
 		},
 		"s4_62": {
-			"enemy41>420>21": {
+			"enemy41>424>15": {
 				"xscale": 100
 			},
 			"object04>436>320": {
@@ -11393,90 +11393,23 @@
 			}
 		},
 		"s4_63": {
-			"enemy13>123>388": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": -100
-			},
-			"enemy13>163>142": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": 100
-			},
-			"enemy13>316>267": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": -100
-			},
-			"enemy13>318>391": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": 100
-			},
-			"enemy13>350>143": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": 100
-			},
-			"enemy13>512>391": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": -100
-			},
-			"enemy13>521>268": {
-				"vars": [
-					{
-						"key": "movNsta",
-						"value": 0
-					}
-				],
-				"xscale": 100
-			},
-			"enemy49>498>105": {
+			"enemy49>158>204": {
 				"boss": 1,
+				"dsize": 0.5,
 				"vars": [
 					{
 						"key": "movNsta",
 						"value": 1
 					}
 				],
-				"xscale": 100
+				"wave": 1,
+				"xscale": -50
 			},
-			"lock>247>107": {
+			"lock>0>0": {
 				"wave": 1,
 				"xscale": 100
 			},
-			"object11_5>316>350": {
-				"xscale": 100
-			},
-			"object11_5>504>350": {
-				"xscale": 100
-			},
-			"object11_8>147>262": {
+			"object04>109>229": {
 				"vars": [
 					{
 						"key": "inAir",
@@ -11485,13 +11418,868 @@
 				],
 				"xscale": 100
 			},
-			"object11_8>495>153": {
+			"object04>109>260": {
 				"vars": [
 					{
 						"key": "inAir",
 						"value": 1
 					}
 				],
+				"xscale": 100
+			},
+			"object04>110>291": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>112>320": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>113>350": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>113>379": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>146>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>146>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>146>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>146>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>146>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>146>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>186>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>186>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>186>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>186>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>186>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>186>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>226>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>226>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>226>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>226>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>226>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>226>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>266>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>266>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>266>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>266>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>266>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>266>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>306>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>306>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>306>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>306>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>306>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>306>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>346>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>346>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>346>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>346>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>346>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>346>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>34>229": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>34>259": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>36>288": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>386>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>386>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>386>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>386>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>386>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>386>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>39>321": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>42>353": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>43>381": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>466>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>466>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>466>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>466>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>466>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>466>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>506>229": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>506>259": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>506>289": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>506>319": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>506>349": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>506>379": {
+				"ammo": 0,
+				"boss": 0,
+				"dsize": 1,
+				"food": 0,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>71>229": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>72>260": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>74>289": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>76>320": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>78>350": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object04>79>379": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object11_1>529>211": {
+				"xscale": 100
+			},
+			"object11_1>532>302": {
+				"xscale": 100
+			},
+			"object11_4>343>413": {
 				"xscale": 100
 			}
 		},
@@ -11500,9 +12288,6 @@
 				"xscale": 100
 			},
 			"object11_5>301>790": {
-				"xscale": 100
-			},
-			"object11_5>500>50": {
 				"xscale": 100
 			},
 			"object11_5>500>100": {
@@ -11517,9 +12302,13 @@
 			"object11_5>500>250": {
 				"xscale": 100
 			},
-			"object19>301>780": {
-				"dsize": 3.8,
+			"object11_5>500>50": {
 				"xscale": 100
+			},
+			"enemy02>295>850": {
+				"boss": 1,
+				"dsize": 1.333333333,
+				"xscale": -100
 			}
 		},
 		"s4_65": {},
@@ -12856,7 +13645,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-02-22  14:20:04",
+	"ModifyTime": "2025-02-23  12:20:27",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
