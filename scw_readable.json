@@ -9567,12 +9567,15 @@
 		},
 		"s3_49": {
 			"enemy45>96>14": {
+				"dsize": 2,
 				"xscale": 100
 			},
 			"enemy46>296>15": {
+				"dsize": 2,
 				"xscale": 100
 			},
 			"enemy47>498>15": {
+				"dsize": 2,
 				"xscale": 100
 			}
 		},
@@ -12082,9 +12085,45 @@
 				"xscale": 100
 			}
 		},
-		"s4_27": {},
-		"s4_28": {},
-		"s4_29": {},
+		"s4_27": {
+			"enemy41>172>156": {
+				"xscale": 100
+			},
+			"enemy41_2>388>229": {
+				"xscale": 100
+			}
+		},
+		"s4_28": {
+			"object08_1>252>70": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			}
+		},
+		"s4_29": {
+			"object08_2>139>48": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object08_3>538>90": {
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			}
+		},
 		"s4_3": {
 			"object10_1>111>412": {
 				"xscale": 100
@@ -12105,7 +12144,18 @@
 				"xscale": 100
 			}
 		},
-		"s4_30": {},
+		"s4_30": {
+			"object04>348>132": {
+				"ammo": 1,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			}
+		},
 		"s4_31": {
 			"enemy01_3_2>0>-200": {
 				"ammo": 0,
@@ -20624,13 +20674,526 @@
 		},
 		"s4_40": {},
 		"s4_41": {},
-		"s4_42": {},
-		"s4_43": {},
-		"s4_44": {},
-		"s4_45": {},
-		"s4_46": {},
-		"s4_47": {},
-		"s4_48": {},
+		"s4_42": {
+			"enemy03>266>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_2>339>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_3>388>-269": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_4>419>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy44>348>-270": {
+				"xMax": {
+					"value": 2
+				},
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 1
+			},
+			"object10_1>334>-5": {
+				"xscale": 100
+			}
+		},
+		"s4_43": {
+			"enemy03>266>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_2>339>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_3>388>-269": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_4>419>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy44>348>-270": {
+				"xMax": {
+					"value": 2
+				},
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 1
+			},
+			"object04>383>83": {
+				"ammo": 1,
+				"dsize": 0.25,
+				"vars": [
+					{
+						"key": "inAir",
+						"value": 1
+					}
+				],
+				"xscale": 100
+			},
+			"object10_1>334>-10": {
+				"xscale": 100
+			},
+			"object11_5>144>215": {
+				"xscale": 100
+			},
+			"object11_5>260>169": {
+				"xscale": 100
+			},
+			"object11_5>42>281": {
+				"xscale": 100
+			},
+			"object11_5>589>-6": {
+				"xscale": 100
+			},
+			"object15_2>605>321": {
+				"xscale": 100
+			}
+		},
+		"s4_44": {
+			"enemy03>266>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_2>339>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_3>388>-269": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_4>419>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy07>471>182": {
+				"dsize": 1e-6,
+				"xscale": 100
+			},
+			"enemy44>348>-270": {
+				"xMax": {
+					"value": 2
+				},
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 1
+			},
+			"object10_1>334>-5": {
+				"xscale": 100
+			}
+		},
+		"s4_45": {
+			"enemy03>266>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_2>339>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_3>388>-269": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_4>419>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy44>348>-270": {
+				"xMax": {
+					"value": 2
+				},
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 1
+			},
+			"object10_1>334>-5": {
+				"xscale": 100
+			},
+			"enemy03>856>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_2>929>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_3>978>-269": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_4>1009>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy44>938>-270": {
+				"xMax": {
+					"value": 2
+				},
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 1
+			},
+			"object10_1>924>-5": {
+				"xscale": 100
+			}
+		},
+		"s4_46": {
+			"enemy07>20>300": {
+				"boss": 0,
+				"xscale": 100,
+				"wave": 1
+			},
+			"enemy07>570>300": {
+				"xscale": -100,
+				"wave": 1
+			},
+			"enemy07>300.0>300": {
+				"boss": 1,
+				"dsize": 4,
+				"xscale": 100,
+				"wave": 2
+			},
+			"enemy07>300.00>300": {
+				"boss": 1,
+				"dsize": 0.25,
+				"xscale": 100,
+				"wave": 3
+			},
+			"enemy09>0>330": {
+				"boss": 1,
+				"xscale": -100,
+				"wave": 4
+			},
+			"enemy41>20>100": {
+				"boss": 1,
+				"xscale": 100
+			},
+			"enemy41>570>100": {
+				"xscale": 100
+			},
+			"lock>1>0": {
+				"wave": 1,
+				"xscale": 100
+			},
+			"lock>2>0": {
+				"wave": 2,
+				"xscale": 100
+			},
+			"lock>3>0": {
+				"wave": 3,
+				"xscale": 100
+			},
+			"lock>4>0": {
+				"wave": 5,
+				"xscale": -100
+			}
+		},
+		"s4_47": {
+			"enemy03>266>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_2>339>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_3>388>-269": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy03_4>419>-268": {
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 1
+					},
+					{
+						"key": "child",
+						"value": 0
+					}
+				],
+				"xscale": 1
+			},
+			"enemy44>348>-270": {
+				"xMax": {
+					"value": 2
+				},
+				"xMin": {
+					"value": 2
+				},
+				"xscale": 1
+			},
+			"object10_1>334>-5": {
+				"xscale": 100
+			}
+		},
+		"s4_48": {
+			"enemy22_10>3.2e6>400": {
+				"dsize": 1e4,
+				"xscale": -100
+			},
+			"enemy31>3e4>380": {
+				"boss": 1,
+				"xscale": -100
+			},
+			"enemy31>3e4>380.00": {
+				"boss": 1,
+				"xscale": -100
+			},
+			"enemy31>3e4>380.000": {
+				"boss": 1,
+				"xscale": -100
+			},
+			"object11_8>3e4>400": {
+				"xscale": 100
+			},				
+			"ememy31>1e4>-5e4": {
+				"dsize": 1,
+				"boss": 1,
+				"vars": [
+					{
+						"key": "movNsta",
+						"value": 0
+					}
+				],
+				"xscale": 2e9
+			},
+			"object11_8>1e4>-49900": {
+				"xscale": 100
+			},
+			"enemy01>1e2>300": {
+				"ammo": 1,
+				"xscale": 100
+			}
+		},
+		"s4_49": {
+			"enemy09>500>320": {
+				"dsize": 0.5,
+				"xscale": 100
+			}
+		},
 		"s4_5": {
 			"enemy06>388>232": {
 				"xscale": 100
@@ -20669,6 +21232,19 @@
 				"xscale": 100
 			},
 			"other09>269>157": {
+				"xscale": 100
+			}
+		},
+		"s4_50": {
+			"enemy09>500>320": {
+				"boss": 1,
+				"dsize": 0.5,
+				"xscale": 100
+			}
+		},
+		"s4_51": {
+			"enemy09>500>320": {
+				"dsize": 0.5,
 				"xscale": 100
 			}
 		},
@@ -23152,7 +23728,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-03-05  00:12:02",
+	"ModifyTime": "2025-03-10  00:48:17",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
