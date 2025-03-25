@@ -1,5 +1,5 @@
 {
-	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r男角色~马力欧；女角色~路易吉\rMale Character ~ Mario; Female Character ~ Luigi\r\r目前Level 1~4均可完整游玩！\rCurrently, Levels 1~4 are fully playable!\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉；及一些偶尔出现的其他武器。\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon; and a few other weapons.\r\r钻头、Debug枪将在未设计完全的Level解锁。\rDriller and Debug Gun will be unlocked if you complete all levels which were fully designed.\r\r此mod作品以CC-BY-SA 4.0协议发布。敬请期待本mod的源码公布。\rThis creation is distributed under the CC-BY-SA 4.0 License. The source code for this mod will be released soon.",
+	"Description": "wyz_2015's Workshop Item Description_2025-01-12  13:22:07\r\rTag: 跑酷; 动作闯关; 解谜\r\r男角色~马力欧；女角色~路易吉\rMale Character ~ Mario; Female Character ~ Luigi\r\r目前Level 1~4均可完整游玩！\rCurrently, Levels 1~4 are fully playable!\r\r可用武器：大小刀、默认手枪(-S)、布伦式轻机枪、鱼叉；及一些偶尔出现的其他武器。\rYou have: Knives, Default Pistol (-S), MCP-Avenger, Thruster Harpoon; and a few other weapons.\r\r钻头、Debug枪将在未设计完全的Level解锁。\rDriller and Debug Gun will be unlocked if you complete all levels which were fully designed.\r\r此mod作品以CC-BY-SA 4.0协议发布。源码公布于 https://github.com/wyz-2015/Commando2WorkshopItem-SCW 。\rThis creation is distributed under the CC-BY-SA 4.0 License. The source code for this mod were released on ^ .",
 	"EnemyData": {
 		"enemy01": {
 			"attack": 100,
@@ -68054,7 +68054,7 @@
 		"s9_8": {},
 		"s9_9": {}
 	},
-	"ModifyTime": "2025-03-25  10:32:39",
+	"ModifyTime": "2025-03-25  10:53:01",
 	"OtherData": {
 		"CheatOk": true,
 		"FrameRate": 35,
